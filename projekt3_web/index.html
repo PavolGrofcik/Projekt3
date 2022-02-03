@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Projekt #3</title>
+    <title>Moderna Bootstrap Template - Index</title>
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
 
@@ -87,18 +87,21 @@
         <!-- Slide 1 -->
         <div class="carousel-item active">
             <div class="carousel-container">
-                <h2 >Využitie strojového učenia pri diagnostikovaní chorôb</h2>
-                <h2 >Motivácia</h2>
-                <p class="animated fadeInUp">Rakovina ročne zabíja MILIÓNY ľudí oboch pohlaví. Včasná detekcia správneho typu rakoviny môže výrazne redukovať počet úmrtí a tiež zvýšiť úspešnosť výberu správnej liečby.</p>
+                <h2>Využitie strojového učenia pri diagnostikovaní chorôb</h2>
+                <h2>Motivácia</h2>
+                <p class="animated fadeInUp">Rakovina ročne zabíja MILIÓNY ľudí oboch pohlaví. Včasná detekcia správneho
+                    typu rakoviny môže výrazne redukovať počet úmrtí a tiež zvýšiť úspešnosť výberu správnej liečby.</p>
             </div>
         </div>
 
         <!-- Slide 2 -->
         <div class="carousel-item">
             <div class="carousel-container">
-                <h2 >Využitie strojového učenia pri diagnostikovaní chorôb</h2>
-                <h2 >Ciele projektu</h2>
-                <p class="animated fadeInUp">Našou snahou je predpovedať typ rakoviny zo snímok už v skorom štádiu rakoviny pomocou umelých neurónových sietí, aby sa pacienti mohli vyhnúť invazívnym diagnostickým prístupom.</p>
+                <h2>Využitie strojového učenia pri diagnostikovaní chorôb</h2>
+                <h2>Ciele projektu</h2>
+                <p class="animated fadeInUp">Našou snahou je predpovedať typ rakoviny zo snímok už v skorom štádiu
+                    rakoviny pomocou umelých neurónových sietí, aby sa pacienti mohli vyhnúť invazívnym diagnostickým
+                    prístupom.</p>
             </div>
         </div>
 
@@ -139,7 +142,8 @@
                     <div class="icon-box icon-box-blue">
                         <div class="icon"><i class="bx bx-bug"></i></div>
                         <h4 class="title"><a href="">III : Trénovanie neurónových sietí</a></h4>
-                        <p class="description">Na Google Colab boli trénované siete pre binárnu klasifikáciu i klasifikáciu podtypov </p>
+                        <p class="description">Na Google Colab boli trénované siete pre binárnu klasifikáciu i
+                            klasifikáciu podtypov </p>
                     </div>
                 </div>
 
@@ -211,16 +215,18 @@
                 </div>
                 <div style="margin: auto">
                     <ol>
-                    <li>Klasifikačná neurónová sieť</li>
-                    <li>Regresná neurónová sieť</li>
+                        <li>Klasifikačná neurónová sieť</li>
+                        <li>Regresná neurónová sieť</li>
                     </ol>
                 </div>
 
                 <div class="row" data-aos="fade-up">
-                    <img src="assets/img/navrh_neuronovej_siete.png" class="img-fluid shadow" alt="this slowpoke moves" style="margin: auto;">
+                    <img src="assets/img/navrh_neuronovej_siete.png" class="img-fluid shadow" alt="this slowpoke moves"
+                         style="margin: auto;">
                     <div class="col-md-12 pt-4" style="text-align:center;">
                         <h4>Diagram trénovania a testovania neurónovej siete</h4>
-                        <img src="assets/img/NS_diagram.jpg" class="img-fluid shadow" style="margin: auto; height: 600px;">
+                        <img src="assets/img/NS_diagram.jpg" class="img-fluid shadow"
+                             style="margin: auto; height: 600px;">
                     </div>
                     <div class="col-md-12 pt-4" style="text-align:center;">
 
@@ -230,52 +236,54 @@
                     <div class="col-md-6 pt-4">
                         <h3>Implementovaná regresná sieť </h3>
                         <p class="font-italic">
-                            Implementovali sme <b>viacvrstvové neurónové siete</b>. Tie sa skladajú z vstupnej vrstvy,
-                            skrytých
-                            vrstiev a výstupnej vrstvy. Na implementáciu sme použili programovacie jazyky <b>Pyton a
-                            Java.</b>
+                            <b>viacvrstvové neurónové siete</b>
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> vstupná vrstva + skryté
+                            vrstvy + výstupná vrstva
+                        </p>
+                        <!--                        <p class="font-italic">-->
+                        <!--                            <b>Pyton / Java</b>-->
+                        <!--                        </p>-->
 
-                        <img src="assets/img/MSE.jpeg" class="img-fluid shadow" height="250px">
+                        <img src="assets/img/MSE.jpeg" alt="this slowpoke moves" height="300px">
                         <p class="font-italic">
-                            <b>Aktivačná funkcia</b> - na výstupe sme použili identitu a na ostatných vrstvách sme
-                            použili Sigmoidnú funkciu,
-                            ktorej výstupom je reálne číslo od 0 po 1.
+                            <b>Aktivačná funkcia</b>
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - výstup - identita
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - ostatné - Sigmoidná funkcia (výstup 0 - 1)
                         </p>
                         <p class="font-italic">
-                            Počas trénovania sa na konci každej epochy vyhodnotí <b>LOSS funkcia</b> na
-                            základe predpovedí neurónovej siete.
-                            Pre výpočet loss funkcie sme sa rozhodli použiť funkciu <b>MSE</b> (Mean Squared Error),
-                            ktorá určuje priemernú hodnotu odchýlky. Je vypočítaná vzťahom:
+                            <b>LOSS funkcia</b>
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - MSE (Mean Squared Error)
                         </p>
                         <img src="assets/img/vzorecMSE.png">
                         <p class="font-italic">
-                        <li><i class="icon-box"></i> 𝑛 predstavuje počet prvkov, z ktorých je 𝑀S𝐸(𝑛) počítaný,</li>
-                        <li><i class="icon-box"></i> Y 𝑖 je predpoveď v čase 𝑖</li>
-                        <li><i class="icon-box"></i> Y´ 𝑖 je očakávaná predpoveď v čase 𝑖.</li>
+                        <li><i class="icon-box"></i> 𝑛 - počet prvkov</li>
+                        <li><i class="icon-box"></i> Y 𝑖 - predpoveď v čase 𝑖</li>
+                        <li><i class="icon-box"></i> Y´ 𝑖 - očakávaná predpoveď v čase 𝑖.</li>
 
                         </p>
                     </div>
                     <div class="col-md-6 pt-4">
                         <h3>Implementovaná klasifikačná sieť </h3>
                         <p class="font-italic">
-                            Pri implementácii <b>klasifikačnej siete</b> bolo oproti regresnej sieti potrebné urobiť
-                            niekoľko
-                            zmien. Keďže náš <b>očakávaný výstup môže byť len 1 alebo 0.</b>
-                            Pridali sme preto aktivačnú funkciu sigmoid aj do poslednej vrstvy
-                            <img src="assets/img/sigmoid.png" class="img-fluid shadow" height="250px">
+                            <b>klasifikačná sieť</b>
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - výstup 1 / 0
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - posledná vrstva - pridaná sigmoidná funkcia
+                            <img src="assets/img/sigmoid.png" class="img-fluid" alt="this slowpoke moves"
+                                 style="height: 260px;margin: auto;margin-top: 28px">
                         <p class="font-italic">
                             Derivácia sigmoidy:
-                            <img src="assets/img/sigDer.png" alt="this slowpoke moves" height="30PX">
+                            <img src="assets/img/sigDer.png" alt="this slowpoke moves" HEIGHT="30PX">
                         </p>
                         <p class="font-italic">
-                            Ako loss funkciu sme sa rozhodli použiť <b>Binary Cross Entropy</b>, ktorá vyzerá nasledovne
+                            <b>LOSS funkcia</b>
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Binary Cross Entropy
                         </p>
                         </p>
                         <img src="assets/img/BCE.png">
                         <p class="font-italic">
-                        <li><i class="icon-box"></i> m predstavuje počet prvkov, z ktorých je funkcia počítaná</li>
-                        <li><i class="icon-box"></i> yi je skutočná hodnota</li>
-                        <li><i class="icon-box"></i> ýi je predpovedaná hodnota</li>
+                        <li><i class="icon-box"></i> m - počet prvkov</li>
+                        <li><i class="icon-box"></i> yi - skutočná hodnota</li>
+                        <li><i class="icon-box"></i> ýi - predpovedaná hodnota</li>
                         </p>
                         <p class="font-italic">
                             Derivácia Binary Cross Entropy:
@@ -293,13 +301,9 @@
                         <div class="icon-box">
                             <div class="icon"><img src="assets/img/NN_regresion_icon.png " height="64" width="64"></div>
                             <h4 class="title"><a href="">Graf regresnej neurónovej siete</a></h4>
-                            <p class="description">Na grafe 1 je možné vidieť grafické znázornenie trénovania
-                                neurónovej
-                                siete
-                                v priebehu 150 epoch.
-                                Pri trénovaní neurónovej siete je dôležité zadať správne parametre. Na grafe 2 môžeme
-                                pozorovať zadaný vysoký learning rate
-                                ktorý spôsobil pretrénovanie siete</p>
+                            <p class="description">
+                                <br> Graf 1 -> trénovanie, 150 epôch
+                                <br> Graf 2 -> vysoký learning rate -> pretrénovanie siete</p>
                         </div>
 
                         <div class="row" style="margin-top: 20px">
@@ -323,23 +327,27 @@
 
                     <div class="row" data-aos="fade-up">
                         <p class="font-italic">
-                            Na učenie neurónovej siete sme použili <b>backpropagation algoritmus.</b>
-                            Pri backpropagation algoritme sme počítali <b>gradient stratovej funkcie </b>,vzhľadom na
-                            váhy
-                            neurónovej siete.
-                            Backwards v názve znamená že algoritmus postupuje cez sieť od <b>poslednej vrstvy k prvej
-                            vrstve</b>. Pričom čiastkové výpočty gradientu z jednej vrstvy sa znova využijú pri výpočte
-                            gradientu nižšej vrstvy (bližšie k vstupu).
+                            Učenie neurónovej siete - <b>backpropagation algoritmus</b> -> gradient stratovej funkcie
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            - od poslednej vrstvy k prvej
 
-                            Vzorec na výpočet:
+                            <br>
                         </p>
-                        <img src="assets/img/vzorec.png">
-                        <p class="font-italic">
-                            K výpočtu gradientu potrebujeme vypočítať <b>gradient stratovej funkcie</b> s ohľadom na
-                            váhy. Θt
-                            značí parametre neurónovej siete v iterácií t vo výpočte gradientu.
+                        <p><br>
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Vzorec na výpočet
+                            <br>
+                            <img src="assets/img/vzorec.png">
+                        </p>
 
-                        </p>
+                        <!--                        <p class="font-italic">-->
+                        <!--                            Výpočet gradientu - <b>gradient stratovej funkcie</b> s ohľadom na-->
+                        <!--                            váhy. Θt-->
+                        <!--                            značí parametre neurónovej siete v iterácií t vo výpočte gradientu.-->
+
+                        <!--                        </p>-->
                     </div>
                 </div>
             </div>
@@ -352,7 +360,8 @@
                         <div class="icon-box">
                             <div class="icon"><img src="assets/img/book%20(1).png " height="32" width="32"></div>
                             <h4 class="title"><a href="">Vizualizácia procesu učenia NN</a></h4>
-                            <p class="description">Animácia zobrazuje proces trénovania 3 vrstvovej neurónovej siete.</p>
+                            <p class="description">Animácia zobrazuje proces trénovania 3 vrstvovej neurónovej
+                                siete.</p>
 
                             <p class="description"></p>
                         </div>
@@ -374,23 +383,176 @@
                 </div>
                 <div class="col-md-12 pt-5 order-2 order-md-2 ">
                     <p class="font-italic">
-                        Metóda zisťovania ako veľmi bude model ovplyvňovať nezávislé vzorky dát.
-                        Táto metóda využíva parameter <b>k</b>, ktorý značí na aký počet skupín sa majú dané dáta
-                        rozdeliť.
-                        Táto metóda je často nazývaná <b>k-fold cross-validation.</b>
+                        <b>k-fold cross-validation</b>
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        - ako veľmi bude model ovplyvňovať nezávislé vzorky dát
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        - parameter <b>k</b> - počet skupín
                     </p>
                     <p class="font-italic">
-                        Pri krížovej validácií s parametrom k=3 sa dáta rozdelia do troch<b> rovnomerných </b>skupín a
-                        sieť
-                        bude <b>trénovaná a testovaná na 3 rôznych modeloch</b>. K-1 skupín je použitých na trénovanie a
-                        1
-                        skupina je určená na testovanie.
+                        Príklad:
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        - k = 3
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        - dáta rozdelené do troch<b> rovnomerných </b>
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        - trénovanie a testovanie - <b> 3 rôzne modely</b>
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        - trénovanie -> (k - 1) skupín
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        - testovanie -> 1 skupina
                     </p>
-                    <!--<p class="font-italic">Ukážka krížovej validácie s parametrom 3:</p>
-                    <img src="assets/img/krizova.gif">-->
+                    <p class="font-italic">
+                        <br>Ukážka krížovej validácie s parametrom 3:</p>
+                    <img src="assets/img/krizova.gif">
                 </div>
             </div>
 
+            <div class="row" data-aos="fade-up">
+                <div class="col-md-12 pt-4" style="text-align:center;">
+                    <h1>Využitie neurónových sietí pri diagnostikovaní rakoviny prsníka</h1>
+                </div>
+            </div>
+
+            <div class="row" data-aos="fade-up">
+                <div class="col-md-12 pt-4">
+                    <h2>Motivácia</h2>
+                    <p class="font-italic">
+                        <img src="assets/img/grafMotivacia1.png" class="img-fluid shadow"
+                             style="margin: 8px; height: 300px; width: 300px; float: left; background-color: white">
+                        <img src="assets/img/grafMotivacia2.png" class="img-fluid shadow"
+                             style="margin: 8px; height: 300px; width: 350px; float: right; background-color: white">
+                        <br><br>
+                    <li style="text-align: center">Rakovina ročne <b> zabíja milióny ľudí</b></li>
+                    <li style="text-align: center">Viac ako <b> 2,5 miliónom žien</b> je ročne diagnostikovaná rakovina
+                        prsníka
+                    </li>
+                    <li style="text-align: center">Viac ako <b> 680 tisíc</b> žien ročne na rakovinu prsníka umiera</li>
+                    <li style="text-align: center"><b>Včasná detekcia</b> môže výrazne <b>redukovať počet úmrtí</b> a
+                        zvýšiť úspešnosť liečby
+                    </li>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row" data-aos="fade-up">
+                <div class="col-md-12 pt-4">
+                    <h2>Dáta</h2>
+                    <p class="font-italic">
+                        <img src="assets/img/data.png" class="img-fluid shadow"
+                             style="margin: 30px; height: 280px; width: 560px; float: left; background-color: white">
+                        <br>
+                        <br>
+                        <br> Súbor <b>7000 histopatologicých snímkov</b> pacientiek s rakovinou prsníka
+                        <br>
+                        <br> 4 zväčšenia -> 40x / 100x / 200x / 400x
+                        <br>
+                        <br> rozdelenie dát -> Benígne / Malígne -> každá skupina - 4 podtypy
+                        <br>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row" data-aos="fade-up">
+                <div class="col-md-12 pt-4">
+                    <h2>Techniky vylepšenia dát</h2>
+                    <p class="font-italic">
+                        <br><br>
+                    <h4>Posuvné okno</h4>
+                    <img src="assets/img/slidingWindow.jpg" class="img-fluid shadow"
+                         style="margin: 30px; height: 270px; width: 350px; float: right; background-color: white">
+                    <br>
+                    <br>
+                    <br> Metóda <b>zväčšovania počtu</b> dát
+                    <br>
+                    <br> Pomocou posuvného okna sa z <b>jedného</b> obrázka vytvárajú <b>ďalšie</b>
+                    <br>
+                    <br> <b>1</b> pôvodný obrázok -> <b>5</b> menších
+
+                    </p>
+
+                    <br>
+                    <p class="font-italic">
+                        <br><br>
+                    <h4>Normalizácia</h4>
+                    <img src="assets/img/normalizacia.jpg" class="img-fluid shadow"
+                         style="margin: 30px; height: 300px; width: 300px; float: left; background-color: white">
+                    <br>
+                    <br>
+                    <br> Metóda <b>prispôsobenia vlastností</b> základnej vzorky na celý súbor vzoriek
+                    <br>
+                    <br> Snaha o <b>odstránenie veľkých odlišností</b> v celom súbore
+                    <br>
+                    <br> Použité metódy: <b>Vahadane, Macenko, Reinhard</b>
+                    </p>
+
+                    <p class="font-italic">
+                        <br><br><br><br><br>
+                        <img src="assets/img/augmentacia.jpg" class="img-fluid shadow"
+                             style="margin: 30px; height: 300px; width: 300px; float: right; background-color: white">
+                        <br>
+                        <br>
+                        <br>
+                    <h4 style="float: left">Augmentácia</h4><br><br>
+                    <br> Metóda znásobenia počtu vzoriek
+                    <br>
+                    <br> Možné použitie namiesto normalizácie
+                    <br>
+                    <br> Použitie kontrastu, zmena jasu, pridanie šumu, horizontálne/vertikálne otočenie...
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+            <div class="container">
+                <div class="col-lg-12 d-flex flex-column justify-content-center p-5">
+
+                    <!--           <div class="icon-box">-->
+                    <h1 style="text-align: center"><a href="" style="color: black">Klasifikácia a výsledky</a></h1>
+                </div>
+                <div class="row" data-aos="fade-up">
+                    <div class="col-md-12 pt-4">
+                        <p class="font-italic">
+                            <img src="assets/img/binarnaKlasifikacia.png" class="img-fluid shadow"
+                                 style="margin: 30px; height: 350px; width: 510px; float: left; background-color: white">
+                            <br>
+                            <br>Klasifikácia snímok do 2 tried - <b>BENÍGNE</b> a <b>MALÍGNE</b>
+                            <br>
+                            <br>Pre každé zväčšenie pre dôkaz úspešnosti - <b>27 - násobná validácia</b>
+                            <br>tzn. rozdelenie dát do 26 trénovacích a 1 testovaciu skupinu
+                            <br>
+                            <br>Použitá metóda <b>early stopping</b> -> zabránenie pretrénovaniu modelu
+                            <br>
+                            <br>Najlepšie výsledky - <b>200x zväčšenie</b>
+                            <br>
+                            <br>Trénovanie -> <b>170 hodín</b>
+                        </p>
+                    </div>
+
+                    <div class="row" data-aos="fade-up">
+                        <div class="col-md-12 pt-4">
+                            <p class="font-italic">
+                                <img src="assets/img/maligne.png" class="img-fluid shadow"
+                                     style="margin: 30px; height: 350px; width: 510px; float: left; background-color: white">
+                                <img src="assets/img/benigne.png" class="img-fluid shadow"
+                                     style="margin: 30px; height: 350px; width: 510px; float: left; background-color: white">
+                            <p class="description" style="text-align: center">
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Na vzorkách s najlepším zväčšením pri binárnej klasifikácii sa
+                                vykonávali klasifikácie podtypov malígnych i benígnych vzoriek
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Najlepšie výsledky - pomocou techniky posuvného okna
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vykonávali sa experimenty s použitím techník vylepšenia snímok
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trénovanie 30 sietí pre určovanie podtypov -> <b>250 hodín</b>
+                            </p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="center">
             <div class="row">
                 <div class="col-md-6 pt-4">
                     <div class="section-title">
@@ -401,7 +563,8 @@
                         <li>Aplikácia implementovaných modelov na medicínskych dátach: <b>detekovanie nukleotidového
                             polymorfizmu</b> pri rakovine prostaty
                         </li>
-                        <li>Porovnanie komplexnosti a úspešnosti na reálnych dátach medzi našimi modelmi:<b> MARS, SVM & NN</b>
+                        <li>Porovnanie komplexnosti a úspešnosti na reálnych dátach medzi našimi modelmi:<b> MARS, SVM &
+                            NN</b>
                         </li>
                         <li>Pokročilá implementácia NN v aplikačných rámcoch <b>Tensorflow, Pytorch</b>.. a prezentácia
                             reálnych
@@ -414,8 +577,8 @@
                     <img src="assets/img/achievement.png" style="height: 350px;margin-left: 100px">
                 </div>
             </div>
-        </div>
-    </section><!-- End Features Section -->
+            </div>
+        </section><!-- End Features Section -->
 
 </main><!-- End #main -->
 <!-- ======= Our Team Section ======= -->
@@ -444,7 +607,7 @@
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>Bc. Natália Gonšorová</h4>
+                            <h4>Bc. Natália Žibeková</h4>
                             <span>FRI-Inteligentné informačné systémy</span>
                             <p>Programujem hlavne v Jave a zaujímam sa o data mininig a strojové učenie, najmä pri
                                 využití v medicíne.</p>
@@ -463,7 +626,8 @@
                         <div class="member-info">
                             <h4>Bc. Veronika Nováková</h4>
                             <span>FRI-Biomedicínska informatika</span>
-                            <p>Zaujímam sa o dolovanie informácii z dát, ich prezentovanie, vizualizáciu a predikciu. Pracujem s jazykom Python.</p>
+                            <p>Zaujímam sa o dolovanie informácii z dát, ich prezentovanie, vizualizáciu a predikciu.
+                                Pracujem s jazykom Python.</p>
                         </div>
                     </div>
                 </div>
@@ -502,7 +666,8 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member">
                         <div class="member-img">
-                            <img src="assets/img/Peter.jpeg" class="img-fluid" alt="" style="height:300px; opacity: 0.5;">
+                            <img src="assets/img/Peter.jpeg" class="img-fluid" alt=""
+                                 style="height:300px; opacity: 0.5;">
                             <div class="social">
                                 <a></a>
                             </div>
@@ -510,7 +675,8 @@
                         <div class="member-info">
                             <h4>Bc. Peter Paciga</h4>
                             <span>FRI-Informačné systémy - spracovanie dát</span>
-                            <p>Baví ma programovanie Backend-Frontend a orientujem sa na vizualizáciu dát a odhaľovanie nových znalostí.</p>
+                            <p>Baví ma programovanie Backend-Frontend a orientujem sa na vizualizáciu dát a odhaľovanie
+                                nových znalostí.</p>
                         </div>
                     </div>
                 </div>
