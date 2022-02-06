@@ -44,7 +44,7 @@
     <div class="container">
 
         <div class="logo float-left">
-            <h1 class="text-light"><a href="index.html"><span>Ing. Projekt #123</span></a></h1>
+            <h1 class="text-light"><a href="index.html"><span>Ing. Projekt 1 - 2 - 3</span></a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
@@ -53,9 +53,9 @@
             <ul>
                 <li class="active"><a href="#hero">Úvod</a></li>
                 <li><a href="#fazy">Fázy projektu</a></li>
-                <li><a href="#implementacia">Implementácia</a></li>
-                <li><a href="#backpropagation">Backpropagation</a></li>
-                <li><a href="#krizValidacia">Krížová validácia</a></li>
+                <li><a href="#implementacia">Metodológia</a></li>
+                <li><a href="#vylepsenia">Vylepšenia</a></li>
+                <li><a href="#vysledky">Výsledky</a></li>
                 <li><a href="#Team">Tím</a></li>
             </ul>
         </nav>
@@ -296,7 +296,7 @@
         <div class="container">
 
             <div class="row" data-aos="fade-up">
-                <div class="section-title col-md-12 pt-4" id="implementacia">
+                <div class="section-title col-md-12 pt-4">
                     <h2>Princípy neurónových sietí</h2>
                 </div>
                 <div style="margin: auto">
@@ -418,7 +418,9 @@
                     <div class="row" data-aos="fade-up">
                         <div style="display: flex; justify-content: center; padding-block: 50px;">
                             <p class="font-italic" style="width: 50%;">
-                                Učenie NN prebieha pomocou <bla style="font-size: 20px">backpropagation algoritmu</bla>, pri ktorom sa postupne
+                                Učenie NN prebieha pomocou
+                                <bla style="font-size: 20px">backpropagation algoritmu</bla>
+                                , pri ktorom sa postupne
                                 vypočítavajú <u>gradienty</u> pre
                                 aktualizáciu váh od výstupnej ku vstupnej vrstve.
                             </p>
@@ -541,7 +543,7 @@
             <div class="row" data-aos="fade-up">
                 <div class="col-md-12 pt-4">
                     <div class="section-title col-md-12 pt-4">
-                        <h2>Metodológia</h2>
+                        <h2 id ="implementacia">Metodológia</h2>
                     </div>
                     <h4><b>Konvolučné neurónové siete</b></h4>
                     <p><img src="assets/img/FiltracneJadro.png" class="img-fluid shadow"
@@ -645,7 +647,7 @@
             <div class="row" data-aos="fade-up">
                 <div class="col-md-12 pt-4">
                     <div class="section-title col-md-12 pt-4">
-                        <h2>Upgrady</h2>
+                        <h2 id="vylepsenia">Techniky vylepšenia snímok</h2>
                     </div>
                     <p class="font-italic">
                         <br><br>
@@ -708,7 +710,7 @@
 
                 <!--           <div class="icon-box">-->
                 <div class="section-title col-md-12 pt-4">
-                    <h2>Výsledky</h2>
+                    <h2 id="vysledky">Výsledky</h2>
                 </div>
                 <!--                    <h1 class="section-title col-md-12 pt-4" style="text-align: center"><a href="" style="color: black">Klasifikácia a výsledky</a></h1>-->
                 <!--                </div>-->
@@ -770,16 +772,18 @@
                             <div style="text-align:left;margin:20px; padding: 20px">
                                 <p class="font-italic">
                                 <ul>
-                                    <li>- Štúdium a implementácia <b>vlastných modelov</b> neurónových sietí</li>
-                                    <br>
-                                    <li>- Vizualizácia funkčnosti neurónovej siete</li>
-                                    <br>
-                                    <
-                                    <li>- Navrhnutý dvojfázový multitriedny klasifikátor typov rakoviny
+                                <br>
+                                    <li>- Štúdium a implementácia <u style="font-size: 22px">vlastných modelov</u>
+                                        neurónových sietí.
                                     </li>
                                     <br>
-                                    <li>- Použitý <b>transfer learning</b> na <u
-                                            style="font-size:20px;text-decoration: none;">ResNet-152</u>
+                                    <li>- <u style="font-size: 22px">Vizualizácia</u> funkčnosti neurónovej siete.</li>
+                                    <br>
+
+                                <li>- Navrhnutý <u style="font-size: 22px">dvojfázový multitriedny</u> klasifikátor typov rakoviny.
+                                    </li>
+                                    <br>
+                                    <li>- Použitý transfer learning na <u style="font-size:22px">ResNet-152</u>.
                                     </li>
                                 </ul>
                                 </p>
@@ -789,15 +793,19 @@
                             <div style="text-align:left;">
                                 <p class="font-italic">
                                 <ul>
-                                    <li>- Využitie metód stojového učenia pri diagnostikovaní rakoviny prsníka
+                                    <li>- Trénovanie modelov pre prvú fázu (klasifikácia B/M) trvalo <u
+                                            style="font-size: 25px">170</u> hodín.
                                     </li>
                                     <br>
-                                    <li>- Navrhnutý dvojfázový multitriedny klasifikátor typov rakoviny
+                                    <li>- Trénovanie modelov pre fázu klasifikovania podtypov trvalo <u
+                                            style="font-size: 25px">250</u> hodín.
                                     </li>
                                     <br>
-                                    <li>- Použitý <b>transfer learning</b> na <u style="font-size:20px;">ResNet-152</u>
+                                    <li>- Bolo použitých <u style="font-size: 25px">7992</u> histopatologických snímok
+                                        pacientok s rakovinou prsníka.
                                     </li>
-                                    <li>- Použitý <b>transfer learning</b> na <u style="font-size:20px;">ResNet-152</u>
+                                    <li>- Experimenty boli vykonávané pomocou <u style="font-size: 25px">10</u> techník
+                                        vylepšenia snímok.
                                     </li>
                                 </ul>
                                 </p>
@@ -844,8 +852,8 @@
                     </p>
                 </div>
                 <div class="col-md-6 pt-4">
-                    <img src="assets/img/future.jpg.crdownload"
-                         style="margin-top: 100px;height: 350px;margin-left: 100px; opacity: 0.99;">
+                    <img src="assets/img/achievement.png"
+                         style="margin-top: 135px;height: 350px;margin-left: 100px; opacity: 0.99;">
                 </div>
             </div>
             </div>
@@ -873,9 +881,10 @@
                             <div class="member">
                                 <div class="member-img">
                                     <img src="assets/img/natalia.png" class="img-fluid" alt=""
-                                         style="height: 300px; min-width: 255px;">
+                                         style="height: 300px">
                                     <div class="social">
-                                        <a>Designer and Tester</a>
+                                        <a></a>
+                                        <!--                                        Designer and Tester-->
                                     </div>
                                 </div>
                                 <div class="member-info">
@@ -892,9 +901,9 @@
                             <div class="member">
                                 <div class="member-img">
                                     <img src="assets/img/Veronika.jpg" class="img-fluid" alt=""
-                                         style="height:300px;min-width: 255px;object-fit: cover;">
+                                         style="height:300px;object-fit: cover;">
                                     <div class="social">
-                                        <a>UI Developer & DevOps</a>
+                                        <!--                                        <a>UI Developer & DevOps</a>-->
                                     </div>
                                 </div>
                                 <div class="member-info">
@@ -902,7 +911,7 @@
                                     <span>FRI-Biomedicínska informatika</span>
                                     <p>Zaujímam sa o dolovanie informácii z dát, ich prezentovanie, vizualizáciu a
                                         predikciu.
-                                        Python, Java, PHP.</p>
+                                        Python, Java.</p>
                                 </div>
                             </div>
                         </div>
@@ -911,21 +920,21 @@
                             <div class="member">
                                 <div class="member-img">
                                     <img src="assets/img/ja.jpg" class="img-fluid" alt=""
-                                         style="height: 300px;width: 255px;">
+                                         style="height: 300px;">
                                     <div class="social">
-                                        <a>ML Developer</a>
+                                        <!--                                        <a>ML Developer</a>-->
                                     </div>
                                 </div>
                                 <div class="member-info">
                                     <h4>Bc. Ľubomír Ondreička</h4>
                                     <span>FRI-Informačné systémy - spracovanie dát</span>
                                     <p>Zaujímam sa o spracovanie dát, umelú
-                                        inteligenciu a rozoznávaniu objektov. Java, Python, HTML, CSS, JS</p>
+                                        inteligenciu a rozoznávaniu objektov. Java, Python, HTML, CSS, JS, Anvil</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                            <div class="member" style="width: 250px">
+                            <div class="member">
                                 <div class="member-img">
                                     <img src="assets/img/pavol.png" class="img-fluid" alt=""
                                          style="height: 300px;width: 255px;">
@@ -945,9 +954,9 @@
                             <div class="member">
                                 <div class="member-img">
                                     <img src="assets/img/Peter.jpeg" class="img-fluid" alt=""
-                                         style="height:300px;width: 255px; filter: grayscale(100%); opacity: 1;">
+                                         style="height:300px; filter: grayscale(100%); opacity: 1;">
                                     <div class="social">
-                                        <a>Algorithm expert</a>
+                                        <!--                                        <a>Algorithm expert</a>-->
                                     </div>
                                 </div>
                                 <div class="member-info">
